@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Exo 2;
+  src: url(../fonts/Exo2-SemiBold.ttf);
+}
+h1 {
+  color: #333333;
+  font-family: "Exo 2", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: left;
+  margin-left: 173px;
+}
+
+h3 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 27.6px;
+  text-align: left;
+}
+
+.icon_photosfera {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.navbar {
+  width: 930px;
+  height: 90px;
+  border-radius: 37px 37px 37px 37px;
+  opacity: 0px;
+  background-color: #E9EBF7;
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  font-family: "Exo 2", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: #AAAAAA;
+  width: 230px;
+}
+
+nav a:hover {
+  width: 230px;
+  height: 52px;
+  background-color: #FFFFFF;
+  border-radius: 37px 37px 37px 37px;
+  align-items: center;
+  margin-top: 20px;
+}
+nav a.active {
+  width: 230px;
+  height: 52px;
+  background-color: #FFFFFF;
+  border-radius: 37px 37px 37px 37px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.home {
+  width: 230px;
+  height: 52px;
+  background-color: #FFFFFF;
+  border-radius: 37px 37px 37px 37px;
+  align-items: center;
+  margin-top: 20px;
+  background-color: red;
+}
+
+.img_1 {
+  width: 336px;
+  height: 732px;
+  margin-top: 60px;
+  margin-left: 129px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.information {
+  width: 932px;
+  height: 462px;
+  margin-top: 60px;
+  margin-left: 129px;
+  gap: 30px;
+  opacity: 0px;
+}
+
+.subject {
+  width: 50%;
+  font-family: "Exo 2", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+}
+
+.information_2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.information_button {
+  font-family: "Exo 2", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  width: 200px;
+  height: 52px;
+  top: 410px;
+  margin-top: 30px;
+  opacity: 0px;
+  background-color: #43BEA2;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 34px 34px 34px 34px;
+}
+
+.btn_1 {
+  color: #FFFFFF;
+}
+
+.arrows {
+  position: absolute;
+  margin-top: -650px;
+}
+
+.slide {
+  border: 2px solid #E9EBF7;
+  width: 1580px;
+  height: 925px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+hr {
+  border: 1px solid #E9EBF7;
+  margin-top: 60px;
+}
+
+.information_3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.subject_1 {
+  width: 930px;
+  height: 206px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #E9EBF7;
+}
+
+.subject_2 {
+  width: 930px;
+  height: 206px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #E9EBF7;
+  margin-top: 30px;
+}
+
+.price {
+  background-image: url(../img/Ellipse\ 15.png);
+  width: 163px;
+  height: 163px;
+  margin: 20px 0 0 110px;
+}
+
+.old_price_1 {
+  margin: 50px 30px 30px 30px;
+}
+
+.old_price_2 {
+  margin: 93px 30px 30px 30px;
+}
+
+.price_1 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.8px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.price_2 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1900px) {
+  .arrows {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .information_2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  h1 {
+    margin-left: 0px;
+  }
+  .information {
+    margin-left: 0px;
+  }
+  .img_1 {
+    margin-left: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
